@@ -1,0 +1,235 @@
+{
+  "mod_elements": [
+    {
+      "name": "WoodenArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_helmet.json",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_chestplate.json",
+          "src/main/java/net/mcreator/colaboration/item/WoodenArmorItem.java",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/CrystalPickaxeItem.java",
+          "src/main/resources/assets/colaboration/models/item/crystal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/crystal_axe.json",
+          "src/main/java/net/mcreator/colaboration/item/CrystalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/crystal_sword.json",
+          "src/main/java/net/mcreator/colaboration/item/CrystalSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/crystal_shovel.json",
+          "src/main/java/net/mcreator/colaboration/item/CrystalShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/crystal_hoe.json",
+          "src/main/java/net/mcreator/colaboration/item/CrystalHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/crystal_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/crystal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/crystal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/crystal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/crystal_hoe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.colaboration.wooden_armor_leggings": "Wooden Leggings",
+      "item.colaboration.wooden_armor_helmet": "Wooden Helmet",
+      "item.colaboration.crystal_shovel": "Crystal Shovel",
+      "item.colaboration.wooden_armor_boots": "Wooden Boots",
+      "item.colaboration.crystal_sword": "Crystal Sword",
+      "item.colaboration.wooden_armor_chestplate": "Wooden Chestplate",
+      "item.colaboration.crystal_pickaxe": "Crystal Pickaxe",
+      "item.colaboration.crystal_axe": "Crystal Axe",
+      "item.colaboration.crystal_hoe": "Crystal Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "colaboration",
+    "modName": "COLABORATION",
+    "version": "1.0.0",
+    "author": "tylor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.colaboration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}

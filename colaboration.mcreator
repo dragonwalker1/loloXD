@@ -1,9 +1,79 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RedArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/red_armor_helmet.json",
+          "src/main/resources/assets/colaboration/models/item/red_armor_leggings.json",
+          "src/main/resources/assets/colaboration/models/item/red_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/red_armor_chestplate.json",
+          "src/main/java/net/mcreator/colaboration/item/RedArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RedArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/red_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/red_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/red_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/red_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.colaboration.red_armor_chestplate": "Red Chestplate",
+      "item.colaboration.red_armor_leggings": "Red Leggings",
+      "item.colaboration.red_armor_helmet": "Red Helmet",
+      "item.colaboration.red_armor_boots": "Red Boots"
+    }
   },
   "foldersRoot": {
     "name": "~",
