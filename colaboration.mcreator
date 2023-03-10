@@ -19,6 +19,7 @@
     {
       "name": "RedArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_helmet_recipe",
@@ -31,6 +32,7 @@
     {
       "name": "RedArmorBodyRecipe",
       "type": "recipe",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_body_recipe",
@@ -43,6 +45,7 @@
     {
       "name": "RedArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_leggings_recipe",
@@ -55,12 +58,25 @@
     {
       "name": "RedArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_armor_boots_recipe",
       "metadata": {
         "files": [
           "src/main/resources/data/colaboration/recipes/red_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Jujjj",
+      "type": "function",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jujjj",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/functions/jujjj.mcfunction"
         ]
       }
     }
