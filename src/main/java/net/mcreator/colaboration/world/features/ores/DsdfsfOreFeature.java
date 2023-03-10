@@ -21,6 +21,8 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Holder;
 
+import net.mcreator.colaboration.init.ColaborationModBlocks;
+
 import java.util.Set;
 import java.util.List;
 

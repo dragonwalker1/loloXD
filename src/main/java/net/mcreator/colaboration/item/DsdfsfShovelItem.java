@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.colaboration.init.ColaborationModItems;
+
 public class DsdfsfShovelItem extends ShovelItem {
 	public DsdfsfShovelItem() {
 		super(new Tier() {

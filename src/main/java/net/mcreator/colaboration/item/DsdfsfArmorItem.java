@@ -14,6 +14,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.colaboration.init.ColaborationModItems;
+
 public abstract class DsdfsfArmorItem extends ArmorItem {
 	public DsdfsfArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {

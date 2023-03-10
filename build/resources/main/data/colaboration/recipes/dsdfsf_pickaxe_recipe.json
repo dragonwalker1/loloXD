@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "colaboration:dsdfsf"
+    },
+    "1": {
+      "item": "colaboration:dsdfsf"
+    },
+    "2": {
+      "item": "colaboration:dsdfsf"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "colaboration:dsdfsf_pickaxe",
+    "count": 1
+  }
+}

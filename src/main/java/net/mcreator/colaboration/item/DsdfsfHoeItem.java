@@ -8,6 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.colaboration.init.ColaborationModItems;
+
 public class DsdfsfHoeItem extends HoeItem {
 	public DsdfsfHoeItem() {
 		super(new Tier() {

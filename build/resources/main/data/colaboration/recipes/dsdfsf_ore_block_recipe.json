@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "colaboration:dsdfsf"
+    },
+    "1": {
+      "item": "colaboration:dsdfsf"
+    },
+    "2": {
+      "item": "colaboration:dsdfsf"
+    },
+    "3": {
+      "item": "colaboration:dsdfsf"
+    },
+    "4": {
+      "item": "colaboration:dsdfsf"
+    },
+    "5": {
+      "item": "colaboration:dsdfsf"
+    },
+    "6": {
+      "item": "colaboration:dsdfsf"
+    },
+    "7": {
+      "item": "colaboration:dsdfsf"
+    },
+    "8": {
+      "item": "colaboration:dsdfsf"
+    }
+  },
+  "result": {
+    "item": "colaboration:dsdfsf_block",
+    "count": 1
+  }
+}

@@ -8,6 +8,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.colaboration.init.ColaborationModItems;
+
 public class DsdfsfAxeItem extends AxeItem {
 	public DsdfsfAxeItem() {
 		super(new Tier() {

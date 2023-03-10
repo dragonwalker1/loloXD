@@ -3,6 +3,7 @@
     {
       "name": "Dsdfsf",
       "type": "item",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf",
@@ -16,23 +17,25 @@
     {
       "name": "DsdfsfOre",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/colaboration/models/block/dsdfsf_ore.json",
-          "src/main/resources/data/colaboration/forge/biome_modifier/dsdfsf_ore_biome_modifier.json",
-          "src/main/resources/assets/colaboration/blockstates/dsdfsf_ore.json",
-          "src/main/java/net/mcreator/colaboration/world/features/ores/DsdfsfOreFeature.java",
           "src/main/java/net/mcreator/colaboration/block/DsdfsfOreBlock.java",
-          "src/main/resources/assets/colaboration/models/item/dsdfsf_ore.json"
+          "src/main/java/net/mcreator/colaboration/world/features/ores/DsdfsfOreFeature.java",
+          "src/main/resources/data/colaboration/forge/biome_modifier/dsdfsf_ore_biome_modifier.json",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_ore.json",
+          "src/main/resources/assets/colaboration/blockstates/dsdfsf_ore.json",
+          "src/main/resources/assets/colaboration/models/block/dsdfsf_ore.json"
         ]
       }
     },
     {
       "name": "DsdfsfBlock",
       "type": "block",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_block",
@@ -48,6 +51,7 @@
     {
       "name": "DsdfsfOreBlockRecipe",
       "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_ore_block_recipe",
@@ -60,6 +64,7 @@
     {
       "name": "DsdfsfBlockOreRecipe",
       "type": "recipe",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_block_ore_recipe",
@@ -72,6 +77,7 @@
     {
       "name": "DsdfsfOreSmelting",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_ore_smelting",
@@ -84,6 +90,7 @@
     {
       "name": "DsdfsfPickaxe",
       "type": "tool",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_pickaxe",
@@ -97,6 +104,7 @@
     {
       "name": "DsdfsfAxe",
       "type": "tool",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_axe",
@@ -110,32 +118,35 @@
     {
       "name": "DsdfsfSword",
       "type": "tool",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/colaboration/models/item/dsdfsf_sword.json",
-          "src/main/java/net/mcreator/colaboration/item/DsdfsfSwordItem.java"
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfSwordItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_sword.json"
         ]
       }
     },
     {
       "name": "DsdfsfShovel",
       "type": "tool",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/colaboration/item/DsdfsfShovelItem.java",
-          "src/main/resources/assets/colaboration/models/item/dsdfsf_shovel.json"
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_shovel.json",
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfShovelItem.java"
         ]
       }
     },
     {
       "name": "DsdfsfHoe",
       "type": "tool",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_hoe",
@@ -149,6 +160,7 @@
     {
       "name": "DsdfsfPickaxeRecipe",
       "type": "recipe",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_pickaxe_recipe",
@@ -161,6 +173,7 @@
     {
       "name": "DsdfsfAxeRecipe",
       "type": "recipe",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_axe_recipe",
@@ -173,6 +186,7 @@
     {
       "name": "DsdfsfSwordRecipe",
       "type": "recipe",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_sword_recipe",
@@ -185,6 +199,7 @@
     {
       "name": "DsdfsfShovelRecipe",
       "type": "recipe",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_shovel_recipe",
@@ -197,6 +212,7 @@
     {
       "name": "DsdfsfHoeRecipe",
       "type": "recipe",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_hoe_recipe",
@@ -209,22 +225,24 @@
     {
       "name": "DsdfsfArmor",
       "type": "armor",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_leggings.json",
           "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_helmet.json",
           "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_chestplate.json",
-          "src/main/java/net/mcreator/colaboration/item/DsdfsfArmorItem.java",
-          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_helmet.json"
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_leggings.json",
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfArmorItem.java"
         ]
       }
     },
     {
       "name": "DsdfsfArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_armor_helmet_recipe",
@@ -237,6 +255,7 @@
     {
       "name": "DsdfsfArmorBodyRecipe",
       "type": "recipe",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_armor_body_recipe",
@@ -249,6 +268,7 @@
     {
       "name": "DsdfsfArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_armor_leggings_recipe",
@@ -261,6 +281,7 @@
     {
       "name": "DsdfsfArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsdfsf_armor_boots_recipe",
@@ -275,8 +296,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.colaboration.dsdfsf": "Dsdfsf",
       "item.colaboration.dsdfsf_axe": "Dsdfsf Axe",
+      "item.colaboration.dsdfsf": "Dsdfsf",
       "block.colaboration.dsdfsf_block": "Block of Dsdfsf",
       "item.colaboration.dsdfsf_pickaxe": "Dsdfsf Pickaxe",
       "item.colaboration.dsdfsf_sword": "Dsdfsf Sword",
