@@ -1,0 +1,88 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirttoolsShovel",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirttools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DirttoolsShovelItem.java",
+          "src/main/resources/assets/colaboration/models/item/dirttools_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DirttoolsHoe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirttools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DirttoolsHoeItem.java",
+          "src/main/resources/assets/colaboration/models/item/dirttools_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirttoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirttools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dirttools_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DirttoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirttools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dirttools_axe_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.colaboration.dirttools_shovel": "Dirttools Shovel",
+      "item.colaboration.dirttools_hoe": "Dirttools Hoe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "colaboration",
+    "modName": "COLABORATION",
+    "version": "1.0.0",
+    "author": "tylor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.colaboration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}
