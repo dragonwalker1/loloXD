@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "colaboration:dsdfsf"
+    },
+    "2": {
+      "item": "colaboration:dsdfsf"
+    },
+    "3": {
+      "item": "colaboration:dsdfsf"
+    },
+    "5": {
+      "item": "colaboration:dsdfsf"
+    }
+  },
+  "result": {
+    "item": "colaboration:dsdfsf_armor_boots",
+    "count": 1
+  }
+}
