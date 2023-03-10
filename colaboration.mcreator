@@ -1,9 +1,293 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Dsdfsf",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/dsdfsf.json",
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/block/dsdfsf_ore.json",
+          "src/main/resources/data/colaboration/forge/biome_modifier/dsdfsf_ore_biome_modifier.json",
+          "src/main/resources/assets/colaboration/blockstates/dsdfsf_ore.json",
+          "src/main/java/net/mcreator/colaboration/world/features/ores/DsdfsfOreFeature.java",
+          "src/main/java/net/mcreator/colaboration/block/DsdfsfOreBlock.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_block.json",
+          "src/main/resources/assets/colaboration/models/block/dsdfsf_block.json",
+          "src/main/java/net/mcreator/colaboration/block/DsdfsfBlockBlock.java",
+          "src/main/resources/assets/colaboration/blockstates/dsdfsf_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfPickaxeItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfAxeItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_sword.json",
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfShovelItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfHoeItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_leggings.json",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_chestplate.json",
+          "src/main/java/net/mcreator/colaboration/item/DsdfsfArmorItem.java",
+          "src/main/resources/assets/colaboration/models/item/dsdfsf_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DsdfsfArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dsdfsf_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/dsdfsf_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.colaboration.dsdfsf": "Dsdfsf",
+      "item.colaboration.dsdfsf_axe": "Dsdfsf Axe",
+      "block.colaboration.dsdfsf_block": "Block of Dsdfsf",
+      "item.colaboration.dsdfsf_pickaxe": "Dsdfsf Pickaxe",
+      "item.colaboration.dsdfsf_sword": "Dsdfsf Sword",
+      "item.colaboration.dsdfsf_shovel": "Dsdfsf Shovel",
+      "item.colaboration.dsdfsf_armor_boots": "Dsdfsf Boots",
+      "item.colaboration.dsdfsf_hoe": "Dsdfsf Hoe",
+      "item.colaboration.dsdfsf_armor_leggings": "Dsdfsf Leggings",
+      "item.colaboration.dsdfsf_armor_chestplate": "Dsdfsf Chestplate",
+      "item.colaboration.dsdfsf_armor_helmet": "Dsdfsf Helmet",
+      "block.colaboration.dsdfsf_ore": "Dsdfsf Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",

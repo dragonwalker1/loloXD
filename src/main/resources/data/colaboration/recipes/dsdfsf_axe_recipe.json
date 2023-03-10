@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "colaboration:dsdfsf"
+    },
+    "1": {
+      "item": "colaboration:dsdfsf"
+    },
+    "2": {
+      "item": "colaboration:dsdfsf"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "colaboration:dsdfsf_axe",
+    "count": 1
+  }
+}
