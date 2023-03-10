@@ -1,0 +1,314 @@
+{
+  "mod_elements": [
+    {
+      "name": "D",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/d.json",
+          "src/main/java/net/mcreator/colaboration/item/DItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/d_ore.json",
+          "src/main/java/net/mcreator/colaboration/world/features/ores/DOreFeature.java",
+          "src/main/resources/assets/colaboration/blockstates/d_ore.json",
+          "src/main/resources/assets/colaboration/models/block/d_ore.json",
+          "src/main/resources/data/colaboration/forge/biome_modifier/d_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/colaboration/block/DOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/blockstates/d_block.json",
+          "src/main/java/net/mcreator/colaboration/block/DBlockBlock.java",
+          "src/main/resources/assets/colaboration/models/block/d_block.json",
+          "src/main/resources/assets/colaboration/models/item/d_block.json"
+        ]
+      }
+    },
+    {
+      "name": "DOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "DPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/d_pickaxe.json",
+          "src/main/java/net/mcreator/colaboration/item/DPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DAxeItem.java",
+          "src/main/resources/assets/colaboration/models/item/d_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "DSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DSwordItem.java",
+          "src/main/resources/assets/colaboration/models/item/d_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "DShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DShovelItem.java",
+          "src/main/resources/assets/colaboration/models/item/d_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "DHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DHoeItem.java",
+          "src/main/resources/assets/colaboration/models/item/d_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "DPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/colaboration/item/DArmorItem.java",
+          "src/main/resources/assets/colaboration/models/item/d_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/d_armor_chestplate.json",
+          "src/main/resources/assets/colaboration/models/item/d_armor_helmet.json",
+          "src/main/resources/assets/colaboration/models/item/d_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "DArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/d_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.colaboration.d_block": "Block of D",
+      "item.colaboration.d_armor_boots": "D Boots",
+      "item.colaboration.d_armor_helmet": "D Helmet",
+      "item.colaboration.d_axe": "D Axe",
+      "item.colaboration.d": "D",
+      "block.colaboration.d_ore": "D Ore",
+      "item.colaboration.d_pickaxe": "D Pickaxe",
+      "item.colaboration.d_armor_leggings": "D Leggings",
+      "item.colaboration.d_shovel": "D Shovel",
+      "item.colaboration.d_armor_chestplate": "D Chestplate",
+      "item.colaboration.d_hoe": "D Hoe",
+      "item.colaboration.d_sword": "D Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "colaboration",
+    "modName": "COLABORATION",
+    "version": "1.0.0",
+    "author": "tylor, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.colaboration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}
