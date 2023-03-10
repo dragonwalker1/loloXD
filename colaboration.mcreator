@@ -1,9 +1,83 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "WoodenArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_helmet.json",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_chestplate.json",
+          "src/main/java/net/mcreator/colaboration/item/WoodenArmorItem.java",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_boots.json",
+          "src/main/resources/assets/colaboration/models/item/wooden_armor_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodenArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wooden_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/colaboration/recipes/wooden_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.colaboration.wooden_armor_leggings": "Wooden Leggings",
+      "item.colaboration.wooden_armor_helmet": "Wooden Helmet",
+      "item.colaboration.wooden_armor_boots": "Wooden Boots",
+      "item.colaboration.wooden_armor_chestplate": "Wooden Chestplate"
+    }
   },
   "foldersRoot": {
     "name": "~",
