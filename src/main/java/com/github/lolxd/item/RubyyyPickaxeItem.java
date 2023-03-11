@@ -22,7 +22,7 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 2.5f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CirtoModItems.RUBY.get()));
 			}
-		}, 1, -2.6f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.8f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

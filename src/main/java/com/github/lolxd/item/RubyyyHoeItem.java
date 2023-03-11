@@ -22,7 +22,7 @@ public class RubyyyHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return -1f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class RubyyyHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CirtoModItems.RUBY.get()));
 			}
-		}, 0, 0.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, 0f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

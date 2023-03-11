@@ -22,7 +22,7 @@ public class RubyyySwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 7f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
