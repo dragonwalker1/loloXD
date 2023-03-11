@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cirto:ruby"
+    },
+    "1": {
+      "item": "cirto:ruby"
+    },
+    "2": {
+      "item": "cirto:ruby"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cirto:rubyyy_axe",
+    "count": 1
+  }
+}

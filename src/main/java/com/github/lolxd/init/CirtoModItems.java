@@ -13,6 +13,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import com.github.lolxd.item.RubyyySwordItem;
+import com.github.lolxd.item.RubyyyShovelItem;
+import com.github.lolxd.item.RubyyyPickaxeItem;
+import com.github.lolxd.item.RubyyyHoeItem;
+import com.github.lolxd.item.RubyyyAxeItem;
 import com.github.lolxd.item.RubyyArmorItem;
 import com.github.lolxd.item.RubyItem;
 import com.github.lolxd.CirtoMod;
@@ -25,6 +30,13 @@ public class CirtoModItems {
 	public static final RegistryObject<Item> RUBYY_ARMOR_CHESTPLATE = REGISTRY.register("rubyy_armor_chestplate", () -> new RubyyArmorItem.Chestplate());
 	public static final RegistryObject<Item> RUBYY_ARMOR_LEGGINGS = REGISTRY.register("rubyy_armor_leggings", () -> new RubyyArmorItem.Leggings());
 	public static final RegistryObject<Item> RUBYY_ARMOR_BOOTS = REGISTRY.register("rubyy_armor_boots", () -> new RubyyArmorItem.Boots());
+	public static final RegistryObject<Item> RUBYYY_AXE = REGISTRY.register("rubyyy_axe", () -> new RubyyyAxeItem());
+	public static final RegistryObject<Item> RUBYYY_PICKAXE = REGISTRY.register("rubyyy_pickaxe", () -> new RubyyyPickaxeItem());
+	public static final RegistryObject<Item> RUBYYY_SWORD = REGISTRY.register("rubyyy_sword", () -> new RubyyySwordItem());
+	public static final RegistryObject<Item> RUBYYY_SHOVEL = REGISTRY.register("rubyyy_shovel", () -> new RubyyyShovelItem());
+	public static final RegistryObject<Item> RUBYYY_HOE = REGISTRY.register("rubyyy_hoe", () -> new RubyyyHoeItem());
+	public static final RegistryObject<Item> RUBY_ORE = block(CirtoModBlocks.RUBY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> RUBY_BLOCK = block(CirtoModBlocks.RUBY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

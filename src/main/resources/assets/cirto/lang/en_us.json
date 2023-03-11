@@ -1,10 +1,16 @@
 {
-  "block.colaboration.goblin_block": "Goblin Block",
-  "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
   "item.cirto.rubyy_armor_boots": "Ruby Boots",
-  "itemGroup.tabitems": "Items",
+  "item.cirto.rubyyy_sword": "Rubyyy Sword",
   "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
+  "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
+  "item.cirto.rubyyy_axe": "Rubyyy Axe",
+  "item.cirto.rubyyy_shovel": "Rubyyy Shovel",
+  "block.colaboration.goblin_block": "Goblin Block",
+  "block.cirto.ruby_block": "Ruby Block",
+  "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
   "item.cirto.rubyy_armor_chestplate": "Ruby Chestplate",
+  "block.cirto.ruby_ore": "Ruby Ore",
+  "item.cirto.rubyyy_hoe": "Rubyyy Hoe",
   "block.cirto.goblin_block": "Goblin Block",
   "item.cirto.ruby": "Ruby"
 }

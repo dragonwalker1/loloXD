@@ -10,10 +10,14 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import com.github.lolxd.block.RubyOreBlock;
+import com.github.lolxd.block.RubyBlockBlock;
 import com.github.lolxd.block.GoblinBlockBlock;
 import com.github.lolxd.CirtoMod;
 
 public class CirtoModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, CirtoMod.MODID);
 	public static final RegistryObject<Block> GOBLIN_BLOCK = REGISTRY.register("goblin_block", () -> new GoblinBlockBlock());
+	public static final RegistryObject<Block> RUBY_ORE = REGISTRY.register("ruby_ore", () -> new RubyOreBlock());
+	public static final RegistryObject<Block> RUBY_BLOCK = REGISTRY.register("ruby_block", () -> new RubyBlockBlock());
 }

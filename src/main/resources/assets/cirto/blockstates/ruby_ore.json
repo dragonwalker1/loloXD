@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cirto:block/ruby_ore"
+    }
+  }
+}
