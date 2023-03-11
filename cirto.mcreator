@@ -286,8 +286,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cirto.rubyy_armor_boots": "Ruby Boots",
       "item.cirto.rubyyy_sword": "Rubyyy Sword",
+      "item.cirto.rubyy_armor_boots": "Ruby Boots",
       "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
       "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
       "item.cirto.rubyyy_axe": "Rubyyy Axe",
@@ -320,9 +320,7 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "geckolib"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
     "credits": "We used MCreator to make this! Use MCreator to make your own mods. ",
     "modElementsPackage": "com.github.lolxd",

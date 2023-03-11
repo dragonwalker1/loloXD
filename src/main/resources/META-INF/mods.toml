@@ -23,10 +23,4 @@ This mod adds many new additions to minecraft!
 
 
 
-[[dependencies.cirto]]
-    modId="geckolib"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
