@@ -14,7 +14,7 @@ public class RubyyyShovelItem extends ShovelItem {
 	public RubyyyShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 441;
+				return 1756;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class RubyyyShovelItem extends ShovelItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 4f;
 			}
 
 			public int getLevel() {

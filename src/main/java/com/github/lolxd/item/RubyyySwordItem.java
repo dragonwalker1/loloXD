@@ -14,7 +14,7 @@ public class RubyyySwordItem extends SwordItem {
 	public RubyyySwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 441;
+				return 1756;
 			}
 
 			public float getSpeed() {
@@ -36,6 +36,6 @@ public class RubyyySwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CirtoModItems.RUBY.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }

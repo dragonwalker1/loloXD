@@ -14,7 +14,7 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 	public RubyyyPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 441;
+				return 1753;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CirtoModItems.RUBY.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.6f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
