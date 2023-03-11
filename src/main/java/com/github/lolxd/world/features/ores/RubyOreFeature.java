@@ -34,9 +34,9 @@ public class RubyOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RubyOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("cirto:ruby_ore", FEATURE, new OreConfiguration(List.of(OreConfiguration.target(new BlockStateMatchTest(Blocks.STONE.defaultBlockState()), CirtoModBlocks.RUBY_ORE.get().defaultBlockState()),
-				OreConfiguration.target(new BlockStateMatchTest(Blocks.DEEPSLATE.defaultBlockState()), CirtoModBlocks.RUBY_ORE.get().defaultBlockState())), 7));
+				OreConfiguration.target(new BlockStateMatchTest(Blocks.DEEPSLATE.defaultBlockState()), CirtoModBlocks.RUBY_ORE.get().defaultBlockState())), 5));
 		PLACED_FEATURE = PlacementUtils.register("cirto:ruby_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-20)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(6), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-20)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
