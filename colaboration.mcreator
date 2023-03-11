@@ -9,31 +9,13 @@
       "metadata": {
         "files": []
       }
-    },
-    {
-      "name": "Gremlin",
-      "type": "animatedentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gremlin",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/colaboration/entity/model/GremlinModel.java",
-          "src/main/resources/data/colaboration/forge/biome_modifier/gremlin_biome_modifier.json",
-          "src/main/java/net/mcreator/colaboration/client/renderer/GremlinRenderer.java",
-          "src/main/resources/assets/colaboration/models/item/gremlin_spawn_egg.json",
-          "src/main/java/net/mcreator/colaboration/entity/GremlinEntity.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.colaboration.gremlin": "Gremlin",
-      "itemGroup.tabitems": "Items",
-      "item.colaboration.gremlin_spawn_egg": "Gremlin Spawn Egg"
+      "itemGroup.tabitems": "Items"
     }
   },
   "foldersRoot": {
