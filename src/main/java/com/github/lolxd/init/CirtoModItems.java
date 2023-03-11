@@ -20,6 +20,11 @@ import com.github.lolxd.item.RubyyyHoeItem;
 import com.github.lolxd.item.RubyyyAxeItem;
 import com.github.lolxd.item.RubyyArmorItem;
 import com.github.lolxd.item.RubyItem;
+import com.github.lolxd.item.CrystalSwordItem;
+import com.github.lolxd.item.CrystalShovelItem;
+import com.github.lolxd.item.CrystalPickaxeItem;
+import com.github.lolxd.item.CrystalHoeItem;
+import com.github.lolxd.item.CrystalAxeItem;
 import com.github.lolxd.CirtoMod;
 
 public class CirtoModItems {
@@ -37,6 +42,11 @@ public class CirtoModItems {
 	public static final RegistryObject<Item> RUBYYY_HOE = REGISTRY.register("rubyyy_hoe", () -> new RubyyyHoeItem());
 	public static final RegistryObject<Item> RUBY_ORE = block(CirtoModBlocks.RUBY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUBY_BLOCK = block(CirtoModBlocks.RUBY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CRYSTAL_PICKAXE = REGISTRY.register("crystal_pickaxe", () -> new CrystalPickaxeItem());
+	public static final RegistryObject<Item> CRYSTAL_AXE = REGISTRY.register("crystal_axe", () -> new CrystalAxeItem());
+	public static final RegistryObject<Item> CRYSTAL_SWORD = REGISTRY.register("crystal_sword", () -> new CrystalSwordItem());
+	public static final RegistryObject<Item> CRYSTAL_SHOVEL = REGISTRY.register("crystal_shovel", () -> new CrystalShovelItem());
+	public static final RegistryObject<Item> CRYSTAL_HOE = REGISTRY.register("crystal_hoe", () -> new CrystalHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
