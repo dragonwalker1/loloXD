@@ -265,14 +265,27 @@
           "src/main/resources/assets/cirto/models/item/ruby_block.json"
         ]
       }
+    },
+    {
+      "name": "RubyBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/ruby_block_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cirto.rubyy_armor_boots": "Ruby Boots",
       "item.cirto.rubyyy_sword": "Rubyyy Sword",
+      "item.cirto.rubyy_armor_boots": "Ruby Boots",
       "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
       "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
       "item.cirto.rubyyy_axe": "Rubyyy Axe",
