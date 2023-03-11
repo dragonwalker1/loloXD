@@ -14,9 +14,11 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
+import com.github.lolxd.init.CirtoModItems;
+
 public class RubyOreBlock extends Block {
 	public RubyOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(1.5f, 10f));
 	}
 
 	@Override
@@ -29,6 +31,6 @@ public class RubyOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(CirtoModItems.RUBY.get()));
 	}
 }
