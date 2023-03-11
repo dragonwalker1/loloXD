@@ -35,7 +35,7 @@
     ],
     "name": "Ruby Ore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 1.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Ruby"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 3,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

@@ -1,10 +1,24 @@
 {
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2023-03-10 23:12:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2023-03-10 23:12:14 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:river": "2023-03-10 22:39:17 -0500",
-      "minecraft:dripstone_caves": "2023-03-10 22:39:21 -0500",
-      "minecraft:meadow": "2023-03-10 22:39:55 -0500",
-      "minecraft:plains": "2023-03-10 22:28:43 -0500"
+      "minecraft:old_growth_pine_taiga": "2023-03-10 23:10:51 -0500",
+      "minecraft:taiga": "2023-03-10 23:12:06 -0500",
+      "minecraft:beach": "2023-03-10 23:12:10 -0500",
+      "minecraft:cold_ocean": "2023-03-10 23:10:59 -0500",
+      "minecraft:forest": "2023-03-10 23:12:20 -0500",
+      "minecraft:lush_caves": "2023-03-10 23:11:05 -0500"
     },
     "done": false
   },

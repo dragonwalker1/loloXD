@@ -282,8 +282,35 @@
       }
     },
     {
+      "name": "CrystalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
       "name": "CrystalArmor",
       "type": "armor",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor",
@@ -298,32 +325,9 @@
       }
     },
     {
-      "name": "CrystalArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystal_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cirto/recipes/crystal_armor_helmet_recipe.json"
-        ]
-      }
-    },
-    {
-      "name": "CrystalArmorBodyRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crystal_armor_body_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/cirto/recipes/crystal_armor_body_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "CrystalArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crystal_armor_leggings_recipe",
@@ -334,14 +338,150 @@
       }
     },
     {
-      "name": "CrystalArmorBootsRecipe",
+      "name": "CrystalArmorBodyRecipe",
       "type": "recipe",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crystal_armor_boots_recipe",
+      "registry_name": "crystal_armor_body_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/cirto/recipes/crystal_armor_boots_recipe.json"
+          "src/main/resources/data/cirto/recipes/crystal_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalAxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/models/item/crystal_axe.json",
+          "src/main/java/com/github/lolxd/item/CrystalAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalHoe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/models/item/crystal_hoe.json",
+          "src/main/java/com/github/lolxd/item/CrystalHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/CrystalSwordItem.java",
+          "src/main/resources/assets/cirto/models/item/crystal_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalPickaxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/CrystalPickaxeItem.java",
+          "src/main/resources/assets/cirto/models/item/crystal_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalShovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/models/item/crystal_shovel.json",
+          "src/main/java/com/github/lolxd/item/CrystalShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrystalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_pickaxe_recipe.json"
         ]
       }
     }
@@ -350,21 +490,17 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cirto.crystal_armor_helmet": "Crystal Helmet",
       "item.cirto.rubyy_armor_boots": "Ruby Boots",
       "item.cirto.rubyyy_sword": "Ruby Sword",
       "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
       "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
       "item.cirto.rubyyy_axe": "Ruby Axe",
       "item.cirto.rubyyy_shovel": "Ruby Shovel",
-      "item.cirto.crystal_armor_boots": "Crystal Boots",
       "block.colaboration.goblin_block": "Goblin Block",
       "block.cirto.ruby_block": "Ruby Block",
       "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
-      "item.cirto.crystal_armor_leggings": "Crystal Leggings",
       "item.cirto.rubyy_armor_chestplate": "Ruby Chestplate",
       "block.cirto.ruby_ore": "Ruby Ore",
-      "item.cirto.crystal_armor_chestplate": "Crystal Chestplate",
       "item.cirto.rubyyy_hoe": "Ruby Hoe",
       "block.cirto.goblin_block": "Goblin Block",
       "item.cirto.ruby": "Ruby"

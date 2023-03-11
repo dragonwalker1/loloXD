@@ -1,21 +1,12 @@
 
 package com.github.lolxd.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.entity.EquipmentSlot;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.resources.ResourceLocation;
+import java.util.function.Consumer;
+import net.minecraft.client.model.Model;
 
 public abstract class CrystalArmorItem extends ArmorItem {
+
 	public CrystalArmorItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
@@ -61,6 +52,7 @@ public abstract class CrystalArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends CrystalArmorItem {
+
 		public Helmet() {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -69,9 +61,11 @@ public abstract class CrystalArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "cirto:textures/models/armor/crystal_layer_1.png";
 		}
+
 	}
 
 	public static class Chestplate extends CrystalArmorItem {
+
 		public Chestplate() {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -80,9 +74,11 @@ public abstract class CrystalArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "cirto:textures/models/armor/crystal_layer_1.png";
 		}
+
 	}
 
 	public static class Leggings extends CrystalArmorItem {
+
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -91,9 +87,11 @@ public abstract class CrystalArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "cirto:textures/models/armor/crystal_layer_2.png";
 		}
+
 	}
 
 	public static class Boots extends CrystalArmorItem {
+
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 		}
@@ -102,5 +100,7 @@ public abstract class CrystalArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "cirto:textures/models/armor/crystal_layer_1.png";
 		}
+
 	}
+
 }
