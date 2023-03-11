@@ -22,7 +22,7 @@ public class RubyyyHoeItem extends HoeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return -0.9f;
+				return 0f;
 			}
 
 			public int getLevel() {
