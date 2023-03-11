@@ -280,23 +280,91 @@
           "src/main/resources/data/cirto/recipes/ruby_block_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CrystalArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/models/item/crystal_armor_chestplate.json",
+          "src/main/java/com/github/lolxd/item/CrystalArmorItem.java",
+          "src/main/resources/assets/cirto/models/item/crystal_armor_helmet.json",
+          "src/main/resources/assets/cirto/models/item/crystal_armor_leggings.json",
+          "src/main/resources/assets/cirto/models/item/crystal_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorBodyRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CrystalArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/crystal_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.cirto.rubyyy_sword": "Ruby Sword",
+      "item.cirto.crystal_armor_helmet": "Crystal Helmet",
       "item.cirto.rubyy_armor_boots": "Ruby Boots",
+      "item.cirto.rubyyy_sword": "Ruby Sword",
       "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
       "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
       "item.cirto.rubyyy_axe": "Ruby Axe",
       "item.cirto.rubyyy_shovel": "Ruby Shovel",
+      "item.cirto.crystal_armor_boots": "Crystal Boots",
       "block.colaboration.goblin_block": "Goblin Block",
       "block.cirto.ruby_block": "Ruby Block",
       "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
+      "item.cirto.crystal_armor_leggings": "Crystal Leggings",
       "item.cirto.rubyy_armor_chestplate": "Ruby Chestplate",
       "block.cirto.ruby_ore": "Ruby Ore",
+      "item.cirto.crystal_armor_chestplate": "Crystal Chestplate",
       "item.cirto.rubyyy_hoe": "Ruby Hoe",
       "block.cirto.goblin_block": "Goblin Block",
       "item.cirto.ruby": "Ruby"

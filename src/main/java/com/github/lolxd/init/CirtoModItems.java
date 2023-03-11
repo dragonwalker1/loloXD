@@ -20,6 +20,7 @@ import com.github.lolxd.item.RubyyyHoeItem;
 import com.github.lolxd.item.RubyyyAxeItem;
 import com.github.lolxd.item.RubyyArmorItem;
 import com.github.lolxd.item.RubyItem;
+import com.github.lolxd.item.CrystalArmorItem;
 import com.github.lolxd.CirtoMod;
 
 public class CirtoModItems {
@@ -37,6 +38,10 @@ public class CirtoModItems {
 	public static final RegistryObject<Item> RUBYYY_HOE = REGISTRY.register("rubyyy_hoe", () -> new RubyyyHoeItem());
 	public static final RegistryObject<Item> RUBY_ORE = block(CirtoModBlocks.RUBY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RUBY_BLOCK = block(CirtoModBlocks.RUBY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_HELMET = REGISTRY.register("crystal_armor_helmet", () -> new CrystalArmorItem.Helmet());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_CHESTPLATE = REGISTRY.register("crystal_armor_chestplate", () -> new CrystalArmorItem.Chestplate());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_LEGGINGS = REGISTRY.register("crystal_armor_leggings", () -> new CrystalArmorItem.Leggings());
+	public static final RegistryObject<Item> CRYSTAL_ARMOR_BOOTS = REGISTRY.register("crystal_armor_boots", () -> new CrystalArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
