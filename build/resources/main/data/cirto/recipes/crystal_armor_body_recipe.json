@@ -1,14 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    "3 5"
+    "0 2",
+    "345",
+    "678"
   ],
   "key": {
     "0": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "1": {
       "item": "minecraft:amethyst_shard"
     },
     "2": {
@@ -17,12 +15,24 @@
     "3": {
       "item": "minecraft:amethyst_shard"
     },
+    "4": {
+      "item": "minecraft:amethyst_shard"
+    },
     "5": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "6": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "8": {
       "item": "minecraft:amethyst_shard"
     }
   },
   "result": {
-    "item": "cirto:crystal_armor_helmet",
+    "item": "cirto:crystal_armor_chestplate",
     "count": 1
   }
 }
