@@ -1,7 +1,10 @@
 {
   "block.colaboration.goblin_block": "Goblin Block",
-  "block.cirto.ruby_block": "Ruby Block",
+  "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
+  "item.cirto.rubyy_armor_boots": "Ruby Boots",
   "itemGroup.tabitems": "Items",
+  "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
+  "item.cirto.rubyy_armor_chestplate": "Ruby Chestplate",
   "block.cirto.goblin_block": "Goblin Block",
   "item.cirto.ruby": "Ruby"
 }

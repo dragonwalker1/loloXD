@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "cirto:ruby"
+    },
+    "1": {
+      "item": "cirto:ruby"
+    },
+    "2": {
+      "item": "cirto:ruby"
+    },
+    "3": {
+      "item": "cirto:ruby"
+    },
+    "5": {
+      "item": "cirto:ruby"
+    }
+  },
+  "result": {
+    "item": "cirto:rubyy_armor_helmet",
+    "count": 1
+  }
+}

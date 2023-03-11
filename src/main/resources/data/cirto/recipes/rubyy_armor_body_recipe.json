@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "cirto:ruby"
+    },
+    "2": {
+      "item": "cirto:ruby"
+    },
+    "3": {
+      "item": "cirto:ruby"
+    },
+    "4": {
+      "item": "cirto:ruby"
+    },
+    "5": {
+      "item": "cirto:ruby"
+    },
+    "6": {
+      "item": "cirto:ruby"
+    },
+    "7": {
+      "item": "cirto:ruby"
+    },
+    "8": {
+      "item": "cirto:ruby"
+    }
+  },
+  "result": {
+    "item": "cirto:rubyy_armor_chestplate",
+    "count": 1
+  }
+}

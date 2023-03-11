@@ -42,7 +42,6 @@ import java.util.AbstractMap;
 
 import com.github.lolxd.init.CirtoModTabs;
 import com.github.lolxd.init.CirtoModItems;
-import com.github.lolxd.init.CirtoModFeatures;
 import com.github.lolxd.init.CirtoModBlocks;
 
 @Mod("cirto")
@@ -57,8 +56,6 @@ public class CirtoMod {
 
 		CirtoModBlocks.REGISTRY.register(bus);
 		CirtoModItems.REGISTRY.register(bus);
-
-		CirtoModFeatures.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

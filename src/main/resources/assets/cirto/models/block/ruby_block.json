@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "cirto:blocks/ruby",
-    "particle": "cirto:blocks/ruby"
-  },
-  "render_type": "solid"
-}
