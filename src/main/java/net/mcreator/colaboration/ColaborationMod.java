@@ -13,8 +13,6 @@
  */
 package net.mcreator.colaboration;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -57,7 +55,6 @@ public class ColaborationMod {
 		ColaborationModBlocks.REGISTRY.register(bus);
 		ColaborationModItems.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
