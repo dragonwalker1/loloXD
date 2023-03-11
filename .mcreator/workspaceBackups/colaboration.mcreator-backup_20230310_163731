@@ -1,0 +1,63 @@
+{
+  "mod_elements": [
+    {
+      "name": "Items",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GoblinBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblin_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/block/goblin_block.json",
+          "src/main/resources/assets/colaboration/models/item/goblin_block.json",
+          "src/main/java/net/mcreator/colaboration/block/GoblinBlockBlock.java",
+          "src/main/resources/assets/colaboration/blockstates/goblin_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.colaboration.goblin_block": "Goblin Block",
+      "itemGroup.tabitems": "Items"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cirto",
+    "modName": "Cirto",
+    "version": "1.0.0",
+    "description": "This mod adds many new additions to minecraft!",
+    "author": "dragon and sheluvsdeez",
+    "websiteURL": "https://github.com/dragonwalker1/loloXD",
+    "license": "Cool kid license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "We used MCreator to make this! Use MCreator to make your own mods. ",
+    "modElementsPackage": "net.mcreator.colaboration",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}

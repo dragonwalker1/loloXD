@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cirto:block/goblin_block"
+    }
+  }
+}

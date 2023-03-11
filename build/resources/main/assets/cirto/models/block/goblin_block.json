@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cirto:blocks/d",
+    "up": "cirto:blocks/h",
+    "north": "cirto:blocks/goblin",
+    "east": "cirto:blocks/j",
+    "south": "cirto:blocks/j",
+    "west": "cirto:blocks/j",
+    "particle": "cirto:blocks/d"
+  },
+  "render_type": "solid"
+}

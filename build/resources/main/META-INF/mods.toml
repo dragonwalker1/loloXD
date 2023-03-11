@@ -1,16 +1,20 @@
 modLoader="javafml"
 loaderVersion="[43,)"
-license="Academic Free License v3.0"
+license="Cool kid license"
 
 [[mods]]
-modId="colaboration"
+modId="cirto"
 version="1.0.0"
-displayName="COLABORATION"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="tylor, MCreator"
+displayName="Cirto"
+credits="We used MCreator to make this! Use MCreator to make your own mods. "
+displayURL="https://github.com/dragonwalker1/loloXD"
+logoFile="logo.png"
+authors="dragon and sheluvsdeez"
+description='''
+This mod adds many new additions to minecraft!
+'''
 
-[[dependencies.colaboration]]
+[[dependencies.cirto]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.19.2]"
@@ -19,7 +23,7 @@ authors="tylor, MCreator"
 
 
 
-[[dependencies.colaboration]]
+[[dependencies.cirto]]
     modId="geckolib"
     mandatory=false
     versionRange="[0,)"

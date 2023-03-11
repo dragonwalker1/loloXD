@@ -4,7 +4,7 @@
   "definition": {
     "name": "Items",
     "icon": {
-      "value": "Blocks.SKULL#4"
+      "value": "CUSTOM:GoblinBlock"
     },
     "showSearch": false
   }
