@@ -40,9 +40,7 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-import com.github.lolxd.init.CirtoModTabs;
 import com.github.lolxd.init.CirtoModItems;
-import com.github.lolxd.init.CirtoModFeatures;
 import com.github.lolxd.init.CirtoModBlocks;
 
 @Mod("cirto")
@@ -52,13 +50,11 @@ public class CirtoMod {
 
 	public CirtoMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		CirtoModTabs.load();
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		CirtoModBlocks.REGISTRY.register(bus);
 		CirtoModItems.REGISTRY.register(bus);
-
-		CirtoModFeatures.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
