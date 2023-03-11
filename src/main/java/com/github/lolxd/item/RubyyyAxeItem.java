@@ -22,7 +22,7 @@ public class RubyyyAxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 5.5f;
+				return 7.5f;
 			}
 
 			public int getLevel() {

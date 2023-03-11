@@ -22,7 +22,7 @@ public class RubyyyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.5f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
