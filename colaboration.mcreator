@@ -9,13 +9,29 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Ore1",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbowore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/colaboration/models/item/rainbowore.json",
+          "src/main/resources/assets/colaboration/blockstates/rainbowore.json",
+          "src/main/resources/assets/colaboration/models/block/rainbowore.json",
+          "src/main/java/net/mcreator/colaboration/block/Ore1Block.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabitems": "Items"
+      "itemGroup.tabitems": "Items",
+      "block.colaboration.rainbowore": "Ore 1"
     }
   },
   "foldersRoot": {

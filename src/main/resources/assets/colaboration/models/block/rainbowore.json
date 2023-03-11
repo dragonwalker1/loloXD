@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "colaboration:blocks/ore_1",
+    "up": "colaboration:blocks/ore_1",
+    "north": "colaboration:blocks/ore_1",
+    "east": "colaboration:blocks/ore_1",
+    "south": "colaboration:blocks/ore_1",
+    "west": "colaboration:blocks/ore_1",
+    "particle": "colaboration:blocks/ore_1"
+  },
+  "render_type": "solid"
+}

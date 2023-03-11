@@ -32,6 +32,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.colaboration.init.ColaborationModTabs;
+import net.mcreator.colaboration.init.ColaborationModItems;
+import net.mcreator.colaboration.init.ColaborationModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +53,9 @@ public class ColaborationMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		ColaborationModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ColaborationModBlocks.REGISTRY.register(bus);
+		ColaborationModItems.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
