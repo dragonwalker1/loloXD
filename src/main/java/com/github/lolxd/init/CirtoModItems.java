@@ -13,11 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import com.github.lolxd.item.RubyItem;
 import com.github.lolxd.CirtoMod;
 
 public class CirtoModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, CirtoMod.MODID);
+	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
 	public static final RegistryObject<Item> GOBLIN_BLOCK = block(CirtoModBlocks.GOBLIN_BLOCK, null);
+	public static final RegistryObject<Item> RUBY_BLOCK = block(CirtoModBlocks.RUBY_BLOCK, CirtoModTabs.TAB_ITEMS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

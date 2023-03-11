@@ -1,5 +1,7 @@
 {
   "block.colaboration.goblin_block": "Goblin Block",
+  "block.cirto.ruby_block": "Ruby Block",
   "itemGroup.tabitems": "Items",
-  "block.cirto.goblin_block": "Goblin Block"
+  "block.cirto.goblin_block": "Goblin Block",
+  "item.cirto.ruby": "Ruby"
 }
