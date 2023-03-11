@@ -14,7 +14,7 @@ public class RubyyyHoeItem extends HoeItem {
 	public RubyyyHoeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 441;
+				return 1756;
 			}
 
 			public float getSpeed() {
@@ -36,6 +36,6 @@ public class RubyyyHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(CirtoModItems.RUBY.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, 0.5f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
