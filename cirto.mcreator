@@ -245,8 +245,10 @@
         "files": [
           "src/main/java/com/github/lolxd/block/RubyOreBlock.java",
           "src/main/resources/assets/cirto/blockstates/ruby_ore.json",
+          "src/main/resources/data/cirto/forge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/resources/assets/cirto/models/block/ruby_ore.json",
-          "src/main/resources/assets/cirto/models/item/ruby_ore.json"
+          "src/main/resources/assets/cirto/models/item/ruby_ore.json",
+          "src/main/java/com/github/lolxd/world/features/ores/RubyOreFeature.java"
         ]
       }
     },

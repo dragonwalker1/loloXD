@@ -1,49 +1,11 @@
 {
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/mangrove_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2023-03-10 19:39:19 -0500"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:plains": "2023-03-10 19:38:06 -0500"
+      "minecraft:taiga": "2023-03-10 21:21:12 -0500",
+      "minecraft:dripstone_caves": "2023-03-10 21:19:37 -0500",
+      "minecraft:snowy_taiga": "2023-03-10 21:20:26 -0500",
+      "minecraft:grove": "2023-03-10 21:18:45 -0500",
+      "minecraft:deep_dark": "2023-03-10 21:21:16 -0500"
     },
     "done": false
   },

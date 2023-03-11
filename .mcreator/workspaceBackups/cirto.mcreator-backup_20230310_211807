@@ -1,0 +1,332 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoblinBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/block/GoblinBlockBlock.java",
+          "src/main/resources/assets/cirto/models/item/goblin_block.json",
+          "src/main/resources/assets/cirto/models/block/goblin_block.json",
+          "src/main/resources/assets/cirto/blockstates/goblin_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyItem.java",
+          "src/main/resources/assets/cirto/models/item/ruby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyy_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyy_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyy_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/models/item/rubyy_armor_boots.json",
+          "src/main/resources/assets/cirto/models/item/rubyy_armor_leggings.json",
+          "src/main/java/com/github/lolxd/item/RubyyArmorItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyy_armor_helmet.json",
+          "src/main/resources/assets/cirto/models/item/rubyy_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyy_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyy_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyy_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyy_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyy_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyy_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyySwordRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyyy_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyyy_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyAxeRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyyy_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyHoeRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyyy_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyyyPickaxeItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyyy_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyAxe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyyyAxeItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyyy_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyyyHoeItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyyy_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyShovelRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/rubyyy_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyySword",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyyySwordItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyyy_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyyyShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyyy_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/item/RubyyyShovelItem.java",
+          "src/main/resources/assets/cirto/models/item/rubyyy_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/github/lolxd/block/RubyOreBlock.java",
+          "src/main/resources/assets/cirto/blockstates/ruby_ore.json",
+          "src/main/resources/data/cirto/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/resources/assets/cirto/models/block/ruby_ore.json",
+          "src/main/resources/assets/cirto/models/item/ruby_ore.json",
+          "src/main/java/com/github/lolxd/world/features/ores/RubyOreFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cirto/blockstates/ruby_block.json",
+          "src/main/resources/assets/cirto/models/block/ruby_block.json",
+          "src/main/java/com/github/lolxd/block/RubyBlockBlock.java",
+          "src/main/resources/assets/cirto/models/item/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RubyBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cirto/recipes/ruby_block_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cirto.rubyy_armor_boots": "Ruby Boots",
+      "item.cirto.rubyyy_sword": "Rubyyy Sword",
+      "item.cirto.rubyy_armor_helmet": "Ruby Helmet",
+      "item.cirto.rubyyy_pickaxe": "Ruby Pickaxe",
+      "item.cirto.rubyyy_axe": "Rubyyy Axe",
+      "item.cirto.rubyyy_shovel": "Rubyyy Shovel",
+      "block.colaboration.goblin_block": "Goblin Block",
+      "block.cirto.ruby_block": "Ruby Block",
+      "item.cirto.rubyy_armor_leggings": "Ruby Leggings",
+      "item.cirto.rubyy_armor_chestplate": "Ruby Chestplate",
+      "block.cirto.ruby_ore": "Ruby Ore",
+      "item.cirto.rubyyy_hoe": "Rubyyy Hoe",
+      "block.cirto.goblin_block": "Goblin Block",
+      "item.cirto.ruby": "Ruby"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cirto",
+    "modName": "Cirto",
+    "version": "1.0.0",
+    "description": "This mod adds many new additions to minecraft!",
+    "author": "dragon and sheluvsdeez",
+    "websiteURL": "https://github.com/dragonwalker1/loloXD",
+    "license": "Cool kid license",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "pixilart-drawing",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "We used MCreator to make this! Use MCreator to make your own mods. ",
+    "modElementsPackage": "com.github.lolxd",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110219
+}

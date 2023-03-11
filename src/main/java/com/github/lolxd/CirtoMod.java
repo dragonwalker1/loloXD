@@ -13,8 +13,6 @@
  */
 package com.github.lolxd;
 
-import software.bernie.geckolib3.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -41,6 +39,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import com.github.lolxd.init.CirtoModItems;
+import com.github.lolxd.init.CirtoModFeatures;
 import com.github.lolxd.init.CirtoModBlocks;
 
 @Mod("cirto")
@@ -55,6 +54,8 @@ public class CirtoMod {
 
 		CirtoModBlocks.REGISTRY.register(bus);
 		CirtoModItems.REGISTRY.register(bus);
+
+		CirtoModFeatures.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}
